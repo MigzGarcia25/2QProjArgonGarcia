@@ -1,0 +1,406 @@
+body{
+	background-image: url('../images/Background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 2000px;
+	min-width: auto; 
+}
+
+#NavigationLinks{
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #F9D494;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 25px;
+}
+
+#Links{
+	font-family: courier new;
+	width: 50px;
+	height: 50px;
+	border-style: hidden;
+	border-width: 1px;
+	display: inline;
+}
+
+a.re:link{
+	font-family: kristen itc;
+	font-size: 15px;
+	font-style: italic;
+	color: black;
+	text-decoration:none;
+	text-align: center;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #F9D494;
+	display: inline-block;
+	padding-left: 115px;
+	padding-right: 115px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a.re:visited{
+	color: black;
+	background-color: #F9D494;
+}
+
+a.re:hover{
+	color: black;
+	background-color:#FFDCAF;
+}
+
+a.re:active{
+	color: black;
+	background-color:#FFCBA4;
+}
+
+.fb{
+	background: url('../images/Sprites.png') no-repeat -91px -166px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 700px;
+}
+
+.fb:hover {
+	background: url('../images/Sprites.png') no-repeat -91px -466px;
+	width: 50px;
+	height: 50px;
+}
+   
+.twt{
+	background: url('../images/Sprites.png') no-repeat -451px -166px;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 700px;
+}
+
+.twt:hover{
+	background: url('../images/Sprites.png') no-repeat -451px -466px;
+	width: 50px;
+	height: 50px;
+}
+
+.yt {
+	background: url('../images/Sprites.png') no-repeat -391px -166px;
+	width: 50px;
+	height: 50px;
+	float: center;
+}
+
+.yt:hover{
+	background: url('../images/Sprites.png') no-repeat -391px -466px;
+	width: 50px;
+	height: 50px;
+}
+
+#HeadLink1{
+	font-family: courier new;
+	text-align: center;			
+	width: 290px;
+	height: 70px;
+	position: relative;
+	border-style: hidden;
+	border-width: 1px;
+	padding-top: 30px;
+	background-color: #FFFFFF;
+}
+
+#HeadLink2{
+	font-family: courier new;
+	font-size: 25px;
+	text-align: center;			
+	width: 290px;
+	height: 80px;
+	position: relative;
+	border-style: hidden;
+	border-width: 1px;
+	padding-top: 20px;
+	background-color: #FFFFFF;
+}
+
+#PicLink{
+	width: 200px;
+	height: 300px;
+	border: 100px;
+	border-width: 1px;
+	border-style: hidden;
+	background-color: #FFF9E3;
+	padding: 45px;
+}
+
+#Gif{
+	width: 500px; 
+	height: 250px;
+	padding-top: 100px;
+}
+	
+#Title{
+	font-family: courier new;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#Seasons{
+	font-family: courier new;
+	font-size: 20px;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#Season1{
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#Season2{
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#Season3{
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#SeasonDesc{
+	font-family: ink free;	
+	border-style: hidden;
+	border-width: 1px;
+	padding: 10px 70px 70px 0px;
+	background-color: #FFF9E3;
+}
+
+#CharImages{
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin-right: 45px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+#CharNames{
+	font-family: courier new;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#HikiPara{
+	font-family: ink free;
+	border-style: hidden;
+	border-width: 1px;
+	padding: 10px 70px 90px 0px;
+	background-color: #FFF9E3;
+}
+
+#YukiPara{
+	font-family: ink free;
+	border-style: hidden;
+	border-width: 1px;
+	padding: 10px 70px 90px 0px;
+	background-color: #FFF9E3;
+}
+
+#YuiPara{
+	font-family: ink free;
+	border-style: hidden;
+	border-width: 1px;
+	padding: 10px 70px 90px 0px;
+	background-color: #FFF9E3;
+}
+
+#Iconic{
+	font-family: kristen itc;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#Quotes{
+	list-style: none;
+	font-family: ink free;
+	border-style: hidden;
+	border-width: 1px;
+	padding: 10px 70px 10px 0px;
+	background-color: #FFF9E3;
+}
+
+#Reasons{
+	font-family: courier new;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#ReasonsDesc{
+	font-family: ink free;	
+	border-style: hidden;
+	border-width: 1px;
+	padding: 10px 70px 70px 0px;
+	background-color: #FFF9E3;
+}
+
+#Other{
+	font-family: courier new;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#OtherDesc{
+	font-family: ink free;	
+	border-style: hidden;
+	border-width: 1px;
+	padding: 10px 70px 70px 0px;
+	background-color: #FFF9E3;
+}
+
+#YukiHachi{
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#HikiIroha{
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#SadYui{
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#KamiChan{
+	float: left;
+	width: 500px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#KanadeChan{
+	float: left;
+	width: 450px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#IslaChan{
+	float: left;
+	width: 400px;
+	height: 200px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#Yukino{
+	width: 500px;
+	height: 500px;
+}
+
+#YukinoChibi{
+	margin-right: 500px;
+}
+
+#Video{
+	margin-top: 20px;
+}
+
+#Trailer{
+	font-family: kristen itc;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#Citations{
+	font-family: courier new;
+	border-style: hidden;
+	border-width: 1px;
+	background-color: #FFFFFF;
+}
+
+.column { 
+	flex: 33.3%;
+	padding: 5px;
+}
+
+.row{
+	display: flex;
+ }
